@@ -1,0 +1,195 @@
+{
+  "baseUrl": "https://opensource-demo.orangehrmlive.com/",
+  "browser": {
+    "name": "chromium",
+    "headless": true,
+    "slowMo": 0,
+    "timeout": 30000,
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "ignoreHTTPSErrors": true,
+    "acceptDownloads": true,
+    "recordVideo": {
+      "enabled": true,
+      "dir": "./videos",
+      "size": {
+        "width": 1280,
+        "height": 720
+      }
+    },
+    "recordHar": {
+      "enabled": true,
+      "path": "./har/recording.har",
+      "omitContent": false
+    },
+    "trace": {
+      "enabled": true,
+      "mode": "on",
+      "screenshots": true,
+      "snapshots": true
+    }
+  },
+  "testData": {
+    "login": {
+      "valid": {
+        "username": "Admin",
+        "password": "admin123"
+      },
+      "invalid": {
+        "username": "invalid",
+        "password": "invalid123"
+      }
+    },
+    "api": {
+      "baseUrl": "https://reqres.in/api",
+      "timeout": 30000,
+      "login": {
+        "email": "eve.holt@reqres.in",
+        "password": "cityslicka"
+      },
+      "registration": {
+        "email": "eve.holt@reqres.in",
+        "password": "pistol"
+      }
+    },
+    "dashboardTests": {
+      "widgets": [
+        "Time at Work",
+        "My Actions",
+        "Quick Launch",
+        "Buzz Latest Posts",
+        "Employee Distribution",
+        "Employees on Leave Today"
+      ]
+    }
+  },
+  "logger": {
+    "level": "info",
+    "logToFile": true,
+    "logToConsole": true,
+    "maxFileSizeMB": 10,
+    "maxFiles": 5,
+    "directory": "./logs"
+  },
+  "reporting": {
+    "allure": {
+      "enabled": true,
+      "resultsDir": "./allure-results",
+      "reportDir": "./allure-report",
+      "history": "./allure-history"
+    },
+    "html": {
+      "enabled": true,
+      "reportDir": "./reports/html"
+    },
+    "screenshots": {
+      "onFailure": true,
+      "onStep": false,
+      "directory": "./screenshots"
+    },
+    "video": {
+      "enabled": true,
+      "failedTestsOnly": false,
+      "directory": "./videos"
+    }
+  },
+  "integrations": {
+    "jira": {
+      "baseUrl": "",
+      "apiToken": "",
+      "email": "",
+      "projectKey": "",
+      "createTickets": false,
+      "issueType": "Bug",
+      "defaultPriority": "Major",
+      "labels": ["automated-test", "test-failure"]
+    },
+    "aws": {
+      "region": "us-east-1",
+      "accessKeyId": "",
+      "secretAccessKey": "",
+      "s3": {
+        "bucket": "",
+        "uploadArtifacts": false,
+        "artifactsExpiry": 30
+      }
+    },
+    "slack": {
+      "webhookUrl": "",
+      "enabled": false,
+      "channel": "#test-automation",
+      "username": "Automation Bot",
+      "notifyOnFailure": true,
+      "notifyOnSuccess": false
+    },
+    "browserstack": {
+      "username": "",
+      "accessKey": "",
+      "enabled": false,
+      "defaultCapabilities": {
+        "browser": "Chrome",
+        "browser_version": "latest",
+        "os": "Windows",
+        "os_version": "10",
+        "resolution": "1920x1080",
+        "project": "Playwright Framework",
+        "debug": true,
+        "video": true,
+        "networkLogs": true,
+        "console": true
+      }
+    },
+    "lambdatest": {
+      "username": "",
+      "accessKey": "",
+      "enabled": false,
+      "defaultCapabilities": {
+        "browserName": "Chrome",
+        "browserVersion": "latest",
+        "platform": "Windows 10",
+        "resolution": "1920x1080",
+        "build": "Playwright Framework",
+        "project": "Playwright Framework",
+        "visual": true,
+        "video": true,
+        "network": true,
+        "console": true
+      }
+    }
+  },
+  "bdd": {
+    "tagsToInclude": ["@smoke", "@regression"],
+    "tagsToExclude": ["@wip", "@ignore"],
+    "parallel": false,
+    "failFast": false,
+    "retry": 1,
+    "timeout": 60000
+  },
+  "parallelization": {
+    "enabled": false,
+    "workers": 2,
+    "retries": 1
+  },
+  "environments": {
+    "dev": {
+      "baseUrl": "https://opensource-demo.orangehrmlive.com/",
+      "api": {
+        "baseUrl": "https://reqres.in/api"
+      }
+    },
+    "staging": {
+      "baseUrl": "https://opensource-demo.orangehrmlive.com/",
+      "api": {
+        "baseUrl": "https://reqres.in/api"
+      }
+    },
+    "prod": {
+      "baseUrl": "https://opensource-demo.orangehrmlive.com/",
+      "api": {
+        "baseUrl": "https://reqres.in/api"
+      }
+    }
+  }
+}

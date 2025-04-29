@@ -1,0 +1,210 @@
+{
+  "config": {
+    "configFile": "/home/runner/workspace/playraft/playraft/playwright.config.ts",
+    "rootDir": "/home/runner/workspace/playraft/playraft/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": "/home/runner/workspace/playraft/playraft/global-setup.ts",
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "/home/runner/workspace/playraft/playraft/reports"
+        }
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "/home/runner/workspace/playraft/playraft/reports/test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/home/runner/workspace/playraft/playraft/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "api",
+        "name": "api",
+        "testDir": "/home/runner/workspace/playraft/playraft/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/apitest/**/*.test.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/runner/workspace/playraft/playraft/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "bookstore-api",
+        "name": "bookstore-api",
+        "testDir": "/home/runner/workspace/playraft/playraft/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/apitest/bookstore/**/*.test.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/runner/workspace/playraft/playraft/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "ai-tests",
+        "name": "ai-tests",
+        "testDir": "/home/runner/workspace/playraft/playraft/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/aitest/**/*.test.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/runner/workspace/playraft/playraft/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "ui-chrome",
+        "name": "ui-chrome",
+        "testDir": "/home/runner/workspace/playraft/playraft/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/uitest/**/*.test.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/runner/workspace/playraft/playraft/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "ui-firefox",
+        "name": "ui-firefox",
+        "testDir": "/home/runner/workspace/playraft/playraft/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/uitest/**/*.test.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/runner/workspace/playraft/playraft/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "ui-safari",
+        "name": "ui-safari",
+        "testDir": "/home/runner/workspace/playraft/playraft/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/uitest/**/*.test.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/runner/workspace/playraft/playraft/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "mobile-iphone",
+        "name": "mobile-iphone",
+        "testDir": "/home/runner/workspace/playraft/playraft/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/mobiletest/**/*.test.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/runner/workspace/playraft/playraft/artifacts",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "mobile-android",
+        "name": "mobile-android",
+        "testDir": "/home/runner/workspace/playraft/playraft/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/mobiletest/**/*.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.52.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [],
+  "errors": [
+    {
+      "message": "Error: Cannot find module '../api/endpoints/user.endpoint'\nRequire stack:\n- /home/runner/workspace/playraft/playraft/tests/apitest/api.test.ts\n- /home/runner/workspace/node_modules/playwright/lib/transform/transform.js\n- /home/runner/workspace/node_modules/playwright/lib/common/configLoader.js\n- /home/runner/workspace/node_modules/playwright/lib/program.js\n- /home/runner/workspace/node_modules/@playwright/test/cli.js",
+      "stack": "Error: Cannot find module '../api/endpoints/user.endpoint'\nRequire stack:\n- /home/runner/workspace/playraft/playraft/tests/apitest/api.test.ts\n- /home/runner/workspace/node_modules/playwright/lib/transform/transform.js\n- /home/runner/workspace/node_modules/playwright/lib/common/configLoader.js\n- /home/runner/workspace/node_modules/playwright/lib/program.js\n- /home/runner/workspace/node_modules/@playwright/test/cli.js\n    at Object.<anonymous> (/home/runner/workspace/playraft/playraft/tests/apitest/api.test.ts:2:1)",
+      "location": {
+        "file": "/home/runner/workspace/playraft/playraft/tests/apitest/api.test.ts",
+        "column": 1,
+        "line": 2
+      },
+      "snippet": "\u001b[90m   at \u001b[39mapitest/api.test.ts:2\n\n\u001b[0m \u001b[90m 1 |\u001b[39m \u001b[36mimport\u001b[39m { test\u001b[33m,\u001b[39m expect } \u001b[36mfrom\u001b[39m \u001b[32m'@playwright/test'\u001b[39m\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 2 |\u001b[39m \u001b[36mimport\u001b[39m { userEndpoint } \u001b[36mfrom\u001b[39m \u001b[32m'../api/endpoints/user.endpoint'\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m   |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 3 |\u001b[39m \u001b[36mimport\u001b[39m { allureReporter } \u001b[36mfrom\u001b[39m \u001b[32m'../utils/allureReporter'\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 4 |\u001b[39m \u001b[36mimport\u001b[39m { logger } \u001b[36mfrom\u001b[39m \u001b[32m'../utils/logger'\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 5 |\u001b[39m \u001b[36mimport\u001b[39m { dataReader } \u001b[36mfrom\u001b[39m \u001b[32m'../utils/dataReader'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m"
+    },
+    {
+      "message": "Error: Cannot find module '../endpoints/post.endpoint'\nRequire stack:\n- /home/runner/workspace/playraft/playraft/tests/apitest/post.test.ts\n- /home/runner/workspace/node_modules/playwright/lib/transform/transform.js\n- /home/runner/workspace/node_modules/playwright/lib/common/configLoader.js\n- /home/runner/workspace/node_modules/playwright/lib/program.js\n- /home/runner/workspace/node_modules/@playwright/test/cli.js",
+      "stack": "Error: Cannot find module '../endpoints/post.endpoint'\nRequire stack:\n- /home/runner/workspace/playraft/playraft/tests/apitest/post.test.ts\n- /home/runner/workspace/node_modules/playwright/lib/transform/transform.js\n- /home/runner/workspace/node_modules/playwright/lib/common/configLoader.js\n- /home/runner/workspace/node_modules/playwright/lib/program.js\n- /home/runner/workspace/node_modules/@playwright/test/cli.js\n    at Object.<anonymous> (/home/runner/workspace/playraft/playraft/tests/apitest/post.test.ts:2:1)",
+      "location": {
+        "file": "/home/runner/workspace/playraft/playraft/tests/apitest/post.test.ts",
+        "column": 1,
+        "line": 2
+      },
+      "snippet": "\u001b[90m   at \u001b[39mapitest/post.test.ts:2\n\n\u001b[0m \u001b[90m 1 |\u001b[39m \u001b[36mimport\u001b[39m { test\u001b[33m,\u001b[39m expect } \u001b[36mfrom\u001b[39m \u001b[32m'@playwright/test'\u001b[39m\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 2 |\u001b[39m \u001b[36mimport\u001b[39m { postEndpoint\u001b[33m,\u001b[39m \u001b[33mPost\u001b[39m } \u001b[36mfrom\u001b[39m \u001b[32m'../endpoints/post.endpoint'\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m   |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 3 |\u001b[39m \u001b[36mimport\u001b[39m { userEndpoint } \u001b[36mfrom\u001b[39m \u001b[32m'../endpoints/user.endpoint'\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 4 |\u001b[39m \u001b[36mimport\u001b[39m { apiVariableManager } \u001b[36mfrom\u001b[39m \u001b[32m'../utils/api.variable.manager'\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 5 |\u001b[39m \u001b[36mimport\u001b[39m { schemaValidator } \u001b[36mfrom\u001b[39m \u001b[32m'../utils/schema.validator'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m"
+    },
+    {
+      "message": "TypeError: Cannot read properties of undefined (reading 'describe')",
+      "stack": "TypeError: Cannot read properties of undefined (reading 'describe')\n    at Object.<anonymous> (/home/runner/workspace/playraft/playraft/tests/aitest/bookstore-analysis.test.ts:29:9)",
+      "location": {
+        "file": "/home/runner/workspace/playraft/playraft/tests/aitest/bookstore-analysis.test.ts",
+        "column": 9,
+        "line": 29
+      },
+      "snippet": "\u001b[90m   at \u001b[39maitest/bookstore-analysis.test.ts:29\n\n\u001b[0m \u001b[90m 27 |\u001b[39m\n \u001b[90m 28 |\u001b[39m \u001b[90m// API test suite with AI analysis\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 29 |\u001b[39m tags\u001b[33m.\u001b[39mai\u001b[33m.\u001b[39mdescribe(\u001b[32m'Book Store API with AI Analysis'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m    |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 30 |\u001b[39m   \u001b[90m// Create endpoints\u001b[39m\n \u001b[90m 31 |\u001b[39m   \u001b[36mconst\u001b[39m booksEndpoint \u001b[33m=\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mBooksEndpoint\u001b[39m()\u001b[33m;\u001b[39m\n \u001b[90m 32 |\u001b[39m   \u001b[36mconst\u001b[39m accountEndpoint \u001b[33m=\u001b[39m \u001b[36mnew\u001b[39m \u001b[33mAccountEndpoint\u001b[39m()\u001b[33m;\u001b[39m\u001b[0m"
+    },
+    {
+      "message": "Error: Cannot find module '../pages/loginPage'\nRequire stack:\n- /home/runner/workspace/playraft/playraft/tests/uitest/dashboard.test.ts\n- /home/runner/workspace/node_modules/playwright/lib/transform/transform.js\n- /home/runner/workspace/node_modules/playwright/lib/common/configLoader.js\n- /home/runner/workspace/node_modules/playwright/lib/program.js\n- /home/runner/workspace/node_modules/@playwright/test/cli.js",
+      "stack": "Error: Cannot find module '../pages/loginPage'\nRequire stack:\n- /home/runner/workspace/playraft/playraft/tests/uitest/dashboard.test.ts\n- /home/runner/workspace/node_modules/playwright/lib/transform/transform.js\n- /home/runner/workspace/node_modules/playwright/lib/common/configLoader.js\n- /home/runner/workspace/node_modules/playwright/lib/program.js\n- /home/runner/workspace/node_modules/@playwright/test/cli.js\n    at Object.<anonymous> (/home/runner/workspace/playraft/playraft/tests/uitest/dashboard.test.ts:2:1)",
+      "location": {
+        "file": "/home/runner/workspace/playraft/playraft/tests/uitest/dashboard.test.ts",
+        "column": 1,
+        "line": 2
+      },
+      "snippet": "\u001b[90m   at \u001b[39muitest/dashboard.test.ts:2\n\n\u001b[0m \u001b[90m 1 |\u001b[39m \u001b[36mimport\u001b[39m { test\u001b[33m,\u001b[39m expect } \u001b[36mfrom\u001b[39m \u001b[32m'@playwright/test'\u001b[39m\u001b[33m;\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 2 |\u001b[39m \u001b[36mimport\u001b[39m { \u001b[33mLoginPage\u001b[39m } \u001b[36mfrom\u001b[39m \u001b[32m'../pages/loginPage'\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m   |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 3 |\u001b[39m \u001b[36mimport\u001b[39m { \u001b[33mDashboardPage\u001b[39m } \u001b[36mfrom\u001b[39m \u001b[32m'../pages/dashboardPage'\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 4 |\u001b[39m \u001b[36mimport\u001b[39m { dataReader } \u001b[36mfrom\u001b[39m \u001b[32m'../utils/dataReader'\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 5 |\u001b[39m \u001b[36mimport\u001b[39m { logger } \u001b[36mfrom\u001b[39m \u001b[32m'../utils/logger'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m"
+    }
+  ],
+  "stats": {
+    "startTime": "2025-04-29T12:02:20.332Z",
+    "duration": 385.20100000000014,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

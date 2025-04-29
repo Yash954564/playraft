@@ -1,0 +1,35 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "https://jsonplaceholder.typicode.com",
+      "localStorage": [
+        {
+          "name": "demo_authenticated",
+          "value": "true"
+        },
+        {
+          "name": "demo_username",
+          "value": "testuser"
+        },
+        {
+          "name": "demo_token",
+          "value": "demo-token-1745928140419"
+        }
+      ]
+    },
+    {
+      "origin": "https://demoqa.com",
+      "localStorage": [
+        {
+          "name": "bookstore_auth_token",
+          "value": "bookstore-token-1745928140419"
+        },
+        {
+          "name": "bookstore_user_id",
+          "value": "test-user-id"
+        }
+      ]
+    }
+  ]
+}

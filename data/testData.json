@@ -1,0 +1,47 @@
+{
+  "login": {
+    "validTitle": "OrangeHRM",
+    "errorMessage": "Invalid credentials",
+    "validationMessage": "Required",
+    "dashboardHeader": "Dashboard"
+  },
+  "dashboard": {
+    "widgets": [
+      "Time at Work",
+      "My Actions",
+      "Quick Launch",
+      "Buzz Latest Posts",
+      "Employee Distribution",
+      "Employees on Leave Today"
+    ],
+    "menuItems": [
+      "Admin",
+      "PIM",
+      "Leave",
+      "Time",
+      "Recruitment",
+      "My Info",
+      "Performance",
+      "Dashboard",
+      "Directory",
+      "Maintenance",
+      "Buzz"
+    ]
+  },
+  "api": {
+    "users": {
+      "singleUserId": 2,
+      "singleUserFirstName": "Janet",
+      "singleUserLastName": "Weaver",
+      "perPage": 6
+    },
+    "createUser": {
+      "name": "John Doe",
+      "job": "Software Tester"
+    },
+    "updateUser": {
+      "name": "Jane Smith",
+      "job": "QA Engineer"
+    }
+  }
+}
