@@ -1,0 +1,505 @@
+2025-04-29 11:46:39 info: Logger initialized
+2025-04-29 11:46:39 info: Logger initialized
+2025-04-29 11:46:39 info: Logger initialized
+2025-04-29 11:46:39 info: ApiHelper initialized
+2025-04-29 11:46:39 info: BooksEndpoint initialized
+2025-04-29 11:46:39 info: AccountEndpoint initialized
+2025-04-29 11:46:39 info: OpenAI service initialized successfully
+2025-04-29 11:46:39 info: AITestResultsAnalyzer initialized
+2025-04-29 11:46:39 info: Creating user with username: testuser_1745927199381
+2025-04-29 11:46:39 info: ApiHelper initialized
+2025-04-29 11:46:39 info: AccountEndpoint initialized
+2025-04-29 11:46:39 info: Testing create user endpoint with username: testuser_1745927199438
+2025-04-29 11:46:39 info: Creating user with username: testuser_1745927199438
+2025-04-29 11:46:39 info: ApiHelper initialized
+2025-04-29 11:46:39 info: BooksEndpoint initialized
+2025-04-29 11:46:39 info: AccountEndpoint initialized
+2025-04-29 11:46:39 info: OpenAI service initialized successfully
+2025-04-29 11:46:39 info: AITestResultsAnalyzer initialized
+2025-04-29 11:46:39 info: Creating user with username: testuser_1745927199183
+2025-04-29 11:46:39 info: Logger initialized
+2025-04-29 11:46:39 info: ApiHelper initialized
+2025-04-29 11:46:39 info: AccountEndpoint initialized
+2025-04-29 11:46:39 info: BooksEndpoint initialized
+2025-04-29 11:46:39 info: Creating user with username: testuser_1745927199723
+2025-04-29 11:46:40 info: Created test user with ID: undefined
+2025-04-29 11:46:40 info: Generating token for username: testuser_1745927199183
+2025-04-29 11:46:40 info: Generating token for username: testuser_1745927199723
+2025-04-29 11:46:41 info: Created test user with ID: undefined
+2025-04-29 11:46:41 info: Generating token for username: testuser_1745927199381
+2025-04-29 11:46:41 error: API Response Error
+{
+  "status": 502,
+  "statusText": "Bad Gateway",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 29 Apr 2025 11:46:41 GMT",
+    "content-type": "text/html",
+    "content-length": "167",
+    "connection": "keep-alive"
+  },
+  "data": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.17.10 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+}
+2025-04-29 11:46:41 error: API Response Error
+{
+  "status": 502,
+  "statusText": "Bad Gateway",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 29 Apr 2025 11:46:41 GMT",
+    "content-type": "text/html",
+    "content-length": "167",
+    "connection": "keep-alive"
+  },
+  "data": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.17.10 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+}
+2025-04-29 11:46:41 error: API Response Error
+{
+  "status": 502,
+  "statusText": "Bad Gateway",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 29 Apr 2025 11:46:41 GMT",
+    "content-type": "text/html",
+    "content-length": "167",
+    "connection": "keep-alive"
+  },
+  "data": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.17.10 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+}
+2025-04-29 11:46:42 error: API Request Failed
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:42 warn: Operation failed, retrying in 963.2001712269104ms (1/3)
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:42 error: API Request Failed
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:42 warn: Operation failed, retrying in 916.1525990989294ms (1/3)
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:42 error: API Request Failed
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:42 warn: Operation failed, retrying in 935.069313844208ms (1/3)
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:43 error: API Response Error
+{
+  "status": 502,
+  "statusText": "Bad Gateway",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 29 Apr 2025 11:46:42 GMT",
+    "content-type": "text/html",
+    "content-length": "167",
+    "connection": "keep-alive"
+  },
+  "data": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.17.10 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+}
+2025-04-29 11:46:43 error: API Request Failed
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:43 warn: Operation failed, retrying in 1394.8124583047982ms (2/3)
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:43 error: API Response Error
+{
+  "status": 502,
+  "statusText": "Bad Gateway",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 29 Apr 2025 11:46:43 GMT",
+    "content-type": "text/html",
+    "content-length": "167",
+    "connection": "keep-alive"
+  },
+  "data": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.17.10 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+}
+2025-04-29 11:46:43 error: API Request Failed
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:43 warn: Operation failed, retrying in 1619.927369975908ms (2/3)
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:43 error: API Response Error
+{
+  "status": 502,
+  "statusText": "Bad Gateway",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 29 Apr 2025 11:46:43 GMT",
+    "content-type": "text/html",
+    "content-length": "167",
+    "connection": "keep-alive"
+  },
+  "data": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.17.10 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+}
+2025-04-29 11:46:43 error: API Request Failed
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:43 warn: Operation failed, retrying in 1761.04982011319ms (2/3)
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:44 error: API Response Error
+{
+  "status": 502,
+  "statusText": "Bad Gateway",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 29 Apr 2025 11:46:44 GMT",
+    "content-type": "text/html",
+    "content-length": "167",
+    "connection": "keep-alive"
+  },
+  "data": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.17.10 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+}
+2025-04-29 11:46:44 error: API Request Failed
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:44 warn: Operation failed, retrying in 2059.4321945973074ms (3/3)
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:44 error: API Response Error
+{
+  "status": 502,
+  "statusText": "Bad Gateway",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 29 Apr 2025 11:46:44 GMT",
+    "content-type": "text/html",
+    "content-length": "167",
+    "connection": "keep-alive"
+  },
+  "data": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.17.10 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+}
+2025-04-29 11:46:44 error: API Request Failed
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:44 warn: Operation failed, retrying in 1816.6901930753868ms (3/3)
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:44 error: API Response Error
+{
+  "status": 502,
+  "statusText": "Bad Gateway",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 29 Apr 2025 11:46:44 GMT",
+    "content-type": "text/html",
+    "content-length": "167",
+    "connection": "keep-alive"
+  },
+  "data": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.17.10 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+}
+2025-04-29 11:46:44 error: API Request Failed
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:44 warn: Operation failed, retrying in 2622.059116834249ms (3/3)
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:46 error: API Response Error
+{
+  "status": 502,
+  "statusText": "Bad Gateway",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 29 Apr 2025 11:46:46 GMT",
+    "content-type": "text/html",
+    "content-length": "167",
+    "connection": "keep-alive"
+  },
+  "data": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.17.10 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+}
+2025-04-29 11:46:46 error: API Response Error
+{
+  "status": 502,
+  "statusText": "Bad Gateway",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 29 Apr 2025 11:46:46 GMT",
+    "content-type": "text/html",
+    "content-length": "167",
+    "connection": "keep-alive"
+  },
+  "data": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.17.10 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+}
+2025-04-29 11:46:46 error: API Request Failed
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:46 error: Operation failed after 3 retries
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:46 error: Failed to setup test user
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:46 error: API Request Failed
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:46 error: Operation failed after 3 retries
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:46 error: Failed to create user
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:46 info: Testing get all books with AI analysis
+2025-04-29 11:46:46 info: Getting all books
+2025-04-29 11:46:46 error: API Response Error
+{
+  "status": 502,
+  "statusText": "Bad Gateway",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 29 Apr 2025 11:46:46 GMT",
+    "content-type": "text/html",
+    "content-length": "167",
+    "connection": "keep-alive"
+  },
+  "data": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.17.10 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+}
+2025-04-29 11:46:46 error: API Request Failed
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:46 warn: Operation failed, retrying in 894.3484284191809ms (1/3)
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:47 error: API Response Error
+{
+  "status": 502,
+  "statusText": "Bad Gateway",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 29 Apr 2025 11:46:47 GMT",
+    "content-type": "text/html",
+    "content-length": "167",
+    "connection": "keep-alive"
+  },
+  "data": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.17.10 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+}
+2025-04-29 11:46:47 error: API Request Failed
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:47 error: Operation failed after 3 retries
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:47 error: Failed to create user
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:47 info: Testing user creation with AI analysis
+2025-04-29 11:46:47 info: Creating user with username: testAIuser_1745927207712
+2025-04-29 11:46:47 error: API Response Error
+{
+  "status": 502,
+  "statusText": "Bad Gateway",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 29 Apr 2025 11:46:47 GMT",
+    "content-type": "text/html",
+    "content-length": "167",
+    "connection": "keep-alive"
+  },
+  "data": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.17.10 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+}
+2025-04-29 11:46:47 error: API Request Failed
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:47 warn: Operation failed, retrying in 871.0800252453669ms (1/3)
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:47 error: API Response Error
+{
+  "status": 502,
+  "statusText": "Bad Gateway",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 29 Apr 2025 11:46:47 GMT",
+    "content-type": "text/html",
+    "content-length": "167",
+    "connection": "keep-alive"
+  },
+  "data": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.17.10 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+}
+2025-04-29 11:46:47 error: API Request Failed
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:47 warn: Operation failed, retrying in 1273.9428869837375ms (2/3)
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:48 error: API Response Error
+{
+  "status": 502,
+  "statusText": "Bad Gateway",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 29 Apr 2025 11:46:48 GMT",
+    "content-type": "text/html",
+    "content-length": "167",
+    "connection": "keep-alive"
+  },
+  "data": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.17.10 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+}
+2025-04-29 11:46:48 error: API Request Failed
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:48 warn: Operation failed, retrying in 1642.6841833502822ms (2/3)
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:49 error: API Response Error
+{
+  "status": 502,
+  "statusText": "Bad Gateway",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 29 Apr 2025 11:46:49 GMT",
+    "content-type": "text/html",
+    "content-length": "167",
+    "connection": "keep-alive"
+  },
+  "data": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.17.10 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+}
+2025-04-29 11:46:49 error: API Request Failed
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:49 warn: Operation failed, retrying in 2629.041922567179ms (3/3)
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:50 error: API Response Error
+{
+  "status": 502,
+  "statusText": "Bad Gateway",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 29 Apr 2025 11:46:50 GMT",
+    "content-type": "text/html",
+    "content-length": "167",
+    "connection": "keep-alive"
+  },
+  "data": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.17.10 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+}
+2025-04-29 11:46:50 error: API Request Failed
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:50 warn: Operation failed, retrying in 1966.638537814702ms (3/3)
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:51 error: API Response Error
+{
+  "status": 502,
+  "statusText": "Bad Gateway",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 29 Apr 2025 11:46:51 GMT",
+    "content-type": "text/html",
+    "content-length": "167",
+    "connection": "keep-alive"
+  },
+  "data": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.17.10 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+}
+2025-04-29 11:46:51 error: API Request Failed
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:51 error: Operation failed after 3 retries
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:52 info: Cleaning up and performing comprehensive AI analysis
+2025-04-29 11:46:52 error: API Response Error
+{
+  "status": 502,
+  "statusText": "Bad Gateway",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 29 Apr 2025 11:46:52 GMT",
+    "content-type": "text/html",
+    "content-length": "167",
+    "connection": "keep-alive"
+  },
+  "data": "<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n<hr><center>nginx/1.17.10 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n"
+}
+2025-04-29 11:46:52 error: API Request Failed
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:52 error: Operation failed after 3 retries
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:52 error: Failed to create user
+{
+  "error": "AxiosError: Request failed with status code 502"
+}
+2025-04-29 11:46:52 info: Cleaning up and performing comprehensive AI analysis
+2025-04-29 11:46:53 error: Failed to analyze element with AI
+{
+  "error": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+}
+2025-04-29 11:46:53 info: API Performance Analysis:
+{
+  "analysis": "AI analysis failed: Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+}
+2025-04-29 11:46:54 error: Failed to analyze element with AI
+{
+  "error": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+}
+2025-04-29 11:46:54 info: API Performance Analysis:
+{
+  "analysis": "AI analysis failed: Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+}
+2025-04-29 11:46:55 error: Failed to analyze element with AI
+{
+  "error": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+}
+2025-04-29 11:46:55 info: Test Results Analysis:
+{
+  "analysis": "AI analysis failed: Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+}
+2025-04-29 11:46:55 info: Completed Book Store API AI Analysis Tests
+2025-04-29 11:46:55 error: Failed to analyze element with AI
+{
+  "error": "Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+}
+2025-04-29 11:46:55 info: Test Results Analysis:
+{
+  "analysis": "AI analysis failed: Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."
+}
+2025-04-29 11:46:55 info: Completed Book Store API AI Analysis Tests

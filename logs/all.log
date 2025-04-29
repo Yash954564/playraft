@@ -1,0 +1,235 @@
+2025-04-29 11:20:35 [INFO ] Logger initialized
+2025-04-29 11:20:35 [INFO ] Starting global setup
+2025-04-29 11:20:35 [INFO ] Setting up authentication
+2025-04-29 11:20:35 [INFO ] Authentication setup completed
+2025-04-29 11:20:35 [INFO ] Global setup completed successfully
+2025-04-29 11:20:35 [INFO ] Logger initialized
+2025-04-29 11:20:35 [INFO ] Starting global setup
+2025-04-29 11:20:35 [INFO ] Setting up authentication
+2025-04-29 11:20:35 [INFO ] Authentication setup completed
+2025-04-29 11:20:35 [INFO ] Global setup completed successfully
+2025-04-29 11:20:35 [INFO ] Logger initialized
+2025-04-29 11:20:35 [INFO ] Starting global setup
+2025-04-29 11:20:35 [INFO ] Setting up authentication
+2025-04-29 11:20:35 [INFO ] Authentication setup completed
+2025-04-29 11:20:35 [INFO ] Global setup completed successfully
+2025-04-29 11:20:36 [INFO ] OpenAI service initialized successfully
+2025-04-29 11:20:36 [INFO ] OpenAI service initialized successfully
+2025-04-29 11:20:36 [INFO ] OpenAI service initialized successfully
+2025-04-29 11:20:36 [INFO ] ApiHelper initialized with base URL: https://demoqa.com
+2025-04-29 11:20:36 [INFO ] AccountEndpoint initialized
+2025-04-29 11:20:36 [INFO ] ApiHelper initialized with base URL: https://demoqa.com
+2025-04-29 11:20:36 [INFO ] AccountEndpoint initialized
+2025-04-29 11:20:36 [INFO ] ApiHelper initialized with base URL: https://demoqa.com
+2025-04-29 11:20:36 [INFO ] BooksEndpoint initialized
+2025-04-29 11:20:36 [INFO ] AccountEndpoint initialized
+2025-04-29 11:20:36 [INFO ] AITestResultsAnalyzer initialized
+2025-04-29 11:20:36 [INFO ] BooksEndpoint initialized
+2025-04-29 11:20:36 [INFO ] AITestResultsAnalyzer initialized
+2025-04-29 11:20:36 [INFO ] BooksEndpoint initialized
+2025-04-29 11:20:36 [INFO ] AITestResultsAnalyzer initialized
+2025-04-29 11:20:36 [INFO ] Created directory: reports/allure-results
+2025-04-29 11:20:36 [INFO ] Created directory: reports/screenshots
+2025-04-29 11:20:36 [INFO ] Created directory: reports/videos
+2025-04-29 11:20:36 [INFO ] Created directory: reports/logs
+2025-04-29 11:20:36 [INFO ] Allure reporter initialized
+2025-04-29 11:20:36 [INFO ] OpenAI service initialized successfully
+2025-04-29 11:20:38 [INFO ] Logger initialized
+2025-04-29 11:20:38 [INFO ] OpenAI service initialized successfully
+2025-04-29 11:20:38 [INFO ] ApiHelper initialized with base URL: https://demoqa.com
+2025-04-29 11:20:38 [INFO ] BooksEndpoint initialized
+2025-04-29 11:20:38 [INFO ] AccountEndpoint initialized
+2025-04-29 11:20:38 [INFO ] AITestResultsAnalyzer initialized
+2025-04-29 11:20:39 [INFO ] Setting up test environment
+2025-04-29 11:20:39 [INFO ] Testing user creation with AI analysis
+2025-04-29 11:20:39 [INFO ] Creating user with username: testuser_1745925638936
+2025-04-29 11:20:38 [INFO ] Logger initialized
+2025-04-29 11:20:39 [INFO ] OpenAI service initialized successfully
+2025-04-29 11:20:39 [INFO ] ApiHelper initialized with base URL: https://demoqa.com
+2025-04-29 11:20:39 [INFO ] AccountEndpoint initialized
+2025-04-29 11:20:39 [INFO ] Testing token generation with invalid credentials
+2025-04-29 11:20:39 [INFO ] Logger initialized
+2025-04-29 11:20:39 [INFO ] OpenAI service initialized successfully
+2025-04-29 11:20:39 [INFO ] ApiHelper initialized with base URL: https://demoqa.com
+2025-04-29 11:20:39 [INFO ] BooksEndpoint initialized
+2025-04-29 11:20:39 [INFO ] AccountEndpoint initialized
+2025-04-29 11:20:39 [INFO ] AITestResultsAnalyzer initialized
+2025-04-29 11:20:39 [INFO ] Setting up test environment
+2025-04-29 11:20:39 [INFO ] Testing get all books with AI analysis
+2025-04-29 11:20:39 [INFO ] Getting all books
+2025-04-29 11:20:39 [INFO ] Generating token for username: invaliduser
+2025-04-29 11:20:39 [INFO ] Logger initialized
+2025-04-29 11:20:39 [INFO ] Logger initialized
+2025-04-29 11:20:39 [INFO ] Logger initialized
+2025-04-29 11:20:39 [INFO ] OpenAI service initialized successfully
+2025-04-29 11:20:39 [INFO ] ApiHelper initialized with base URL: https://demoqa.com
+2025-04-29 11:20:39 [INFO ] AccountEndpoint initialized
+2025-04-29 11:20:39 [INFO ] OpenAI service initialized successfully
+2025-04-29 11:20:39 [INFO ] ApiHelper initialized with base URL: https://demoqa.com
+2025-04-29 11:20:39 [INFO ] AccountEndpoint initialized
+2025-04-29 11:20:39 [INFO ] Testing create user endpoint
+2025-04-29 11:20:39 [INFO ] Creating user with username: testuser_1745925639801
+2025-04-29 11:20:39 [INFO ] OpenAI service initialized successfully
+2025-04-29 11:20:39 [INFO ] ApiHelper initialized with base URL: https://demoqa.com
+2025-04-29 11:20:39 [INFO ] BooksEndpoint initialized
+2025-04-29 11:20:39 [INFO ] AccountEndpoint initialized
+2025-04-29 11:20:39 [INFO ] AITestResultsAnalyzer initialized
+2025-04-29 11:20:39 [INFO ] Setting up test environment
+2025-04-29 11:20:39 [INFO ] Cleaning up and performing comprehensive AI analysis
+2025-04-29 11:20:39 [INFO ] Completed Book Store API AI Analysis Tests
+2025-04-29 11:20:39 [INFO ] Logger initialized
+2025-04-29 11:20:40 [INFO ] BooksEndpoint initialized
+2025-04-29 11:20:40 [INFO ] AITestResultsAnalyzer initialized
+2025-04-29 11:20:40 [INFO ] Setting up test user and authentication
+2025-04-29 11:20:40 [INFO ] Retrieved 8 books from Book Store API
+2025-04-29 11:20:39 [INFO ] OpenAI service initialized successfully
+2025-04-29 11:20:39 [INFO ] ApiHelper initialized with base URL: https://demoqa.com
+2025-04-29 11:20:39 [INFO ] AccountEndpoint initialized
+2025-04-29 11:20:40 [INFO ] Creating user with username: testuser_1745925640069
+2025-04-29 11:20:40 [ERROR] Failed to create user
+2025-04-29 11:20:40 [INFO ] BooksEndpoint initialized
+2025-04-29 11:20:40 [INFO ] AITestResultsAnalyzer initialized
+2025-04-29 11:20:40 [INFO ] Cleaning up and performing comprehensive AI analysis
+2025-04-29 11:20:40 [INFO ] Setting up test user and authentication
+2025-04-29 11:20:40 [INFO ] Creating user with username: testuser_1745925640143
+2025-04-29 11:20:40 [INFO ] Logger initialized
+2025-04-29 11:20:40 [INFO ] OpenAI service initialized successfully
+2025-04-29 11:20:40 [INFO ] ApiHelper initialized with base URL: https://demoqa.com
+2025-04-29 11:20:40 [INFO ] BooksEndpoint initialized
+2025-04-29 11:20:40 [INFO ] AccountEndpoint initialized
+2025-04-29 11:20:40 [INFO ] AITestResultsAnalyzer initialized
+2025-04-29 11:20:40 [INFO ] Setting up test environment
+2025-04-29 11:20:40 [INFO ] Testing book analysis with AI
+2025-04-29 11:20:40 [INFO ] Getting all books
+2025-04-29 11:20:40 [INFO ] Getting book with ISBN: 9781449325862
+2025-04-29 11:20:40 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/GenerateToken
+2025-04-29 11:20:40 [ERROR] API Error Response: 502 GET https://demoqa.com/BookStore/v1/Book?isbn=9781449325862
+2025-04-29 11:20:40 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:40 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:40 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:41 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/GenerateToken
+2025-04-29 11:20:41 [ERROR] API Error Response: 502 GET https://demoqa.com/BookStore/v1/Book?isbn=9781449325862
+2025-04-29 11:20:41 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:41 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:41 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:41 [ERROR] AI analysis failed
+2025-04-29 11:20:41 [ERROR] API performance analysis failed
+2025-04-29 11:20:41 [ERROR] Failed to analyze test results with AI
+2025-04-29 11:20:41 [INFO ] Completed Book Store API AI Analysis Tests
+2025-04-29 11:20:42 [ERROR] AI analysis failed
+2025-04-29 11:20:42 [ERROR] Book catalog analysis failed
+2025-04-29 11:20:42 [ERROR] Failed to analyze book catalog with AI
+2025-04-29 11:20:42 [INFO ] Cleaning up and performing comprehensive AI analysis
+2025-04-29 11:20:42 [ERROR] API Error Response: 502 GET https://demoqa.com/BookStore/v1/Book?isbn=9781449325862
+2025-04-29 11:20:42 [ERROR] Failed after 3 retries
+2025-04-29 11:20:42 [INFO ] Cleaning up and performing comprehensive AI analysis
+2025-04-29 11:20:42 [INFO ] Completed Book Store API AI Analysis Tests
+2025-04-29 11:20:42 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:42 [ERROR] Failed after 3 retries
+2025-04-29 11:20:42 [ERROR] Failed to setup test user and authentication
+2025-04-29 11:20:42 [INFO ] Cleaning up test user
+2025-04-29 11:20:42 [INFO ] Setting up test user and authentication
+2025-04-29 11:20:42 [INFO ] Creating user with username: testuser_1745925640143
+2025-04-29 11:20:42 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/GenerateToken
+2025-04-29 11:20:42 [ERROR] Failed after 3 retries
+2025-04-29 11:20:42 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:42 [ERROR] Failed after 3 retries
+2025-04-29 11:20:42 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:42 [ERROR] Failed after 3 retries
+2025-04-29 11:20:42 [ERROR] Failed to setup test user and authentication
+2025-04-29 11:20:42 [INFO ] Testing get all books endpoint
+2025-04-29 11:20:42 [INFO ] Getting all books
+2025-04-29 11:20:42 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:42 [ERROR] API Error Response: 502 GET https://demoqa.com/BookStore/v1/Books
+2025-04-29 11:20:43 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:43 [ERROR] API Error Response: 502 GET https://demoqa.com/BookStore/v1/Books
+2025-04-29 11:20:43 [ERROR] AI analysis failed
+2025-04-29 11:20:43 [ERROR] API performance analysis failed
+2025-04-29 11:20:43 [ERROR] Failed to analyze test results with AI
+2025-04-29 11:20:43 [INFO ] Completed Book Store API AI Analysis Tests
+2025-04-29 11:20:43 [INFO ] Logger initialized
+2025-04-29 11:20:43 [INFO ] OpenAI service initialized successfully
+2025-04-29 11:20:43 [INFO ] ApiHelper initialized with base URL: https://demoqa.com
+2025-04-29 11:20:43 [INFO ] AccountEndpoint initialized
+2025-04-29 11:20:44 [INFO ] Testing create user endpoint
+2025-04-29 11:20:44 [INFO ] Creating user with username: testuser_1745925643979
+2025-04-29 11:20:44 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:44 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:44 [ERROR] Failed after 3 retries
+2025-04-29 11:20:44 [ERROR] Failed to setup test user and authentication
+2025-04-29 11:20:44 [ERROR] API Error Response: 502 GET https://demoqa.com/BookStore/v1/Books
+2025-04-29 11:20:44 [INFO ] Cleaning up test user
+2025-04-29 11:20:44 [ERROR] Failed after 3 retries
+2025-04-29 11:20:44 [INFO ] Cleaning up test user
+2025-04-29 11:20:45 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:45 [INFO ] Logger initialized
+2025-04-29 11:20:45 [INFO ] OpenAI service initialized successfully
+2025-04-29 11:20:45 [INFO ] ApiHelper initialized with base URL: https://demoqa.com
+2025-04-29 11:20:45 [INFO ] AccountEndpoint initialized
+2025-04-29 11:20:45 [INFO ] Testing token generation with invalid credentials
+2025-04-29 11:20:45 [INFO ] Generating token for username: invaliduser
+2025-04-29 11:20:46 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/GenerateToken
+2025-04-29 11:20:46 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:46 [ERROR] Failed after 3 retries
+2025-04-29 11:20:46 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/GenerateToken
+2025-04-29 11:20:47 [INFO ] Logger initialized
+2025-04-29 11:20:47 [INFO ] OpenAI service initialized successfully
+2025-04-29 11:20:47 [INFO ] ApiHelper initialized with base URL: https://demoqa.com
+2025-04-29 11:20:47 [INFO ] AccountEndpoint initialized
+2025-04-29 11:20:47 [INFO ] BooksEndpoint initialized
+2025-04-29 11:20:47 [INFO ] AITestResultsAnalyzer initialized
+2025-04-29 11:20:47 [INFO ] Setting up test user and authentication
+2025-04-29 11:20:47 [INFO ] Creating user with username: testuser_1745925647350
+2025-04-29 11:20:47 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:47 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/GenerateToken
+2025-04-29 11:20:47 [ERROR] Failed after 3 retries
+2025-04-29 11:20:48 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:48 [INFO ] Logger initialized
+2025-04-29 11:20:48 [INFO ] OpenAI service initialized successfully
+2025-04-29 11:20:48 [INFO ] ApiHelper initialized with base URL: https://demoqa.com
+2025-04-29 11:20:48 [INFO ] BooksEndpoint initialized
+2025-04-29 11:20:48 [INFO ] AccountEndpoint initialized
+2025-04-29 11:20:48 [INFO ] AITestResultsAnalyzer initialized
+2025-04-29 11:20:48 [INFO ] Setting up test user and authentication
+2025-04-29 11:20:48 [INFO ] Creating user with username: testuser_1745925648872
+2025-04-29 11:20:49 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:49 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:49 [ERROR] Failed after 3 retries
+2025-04-29 11:20:49 [ERROR] Failed to setup test user and authentication
+2025-04-29 11:20:49 [INFO ] Testing get all books endpoint
+2025-04-29 11:20:49 [INFO ] Getting all books
+2025-04-29 11:20:49 [ERROR] API Error Response: 502 GET https://demoqa.com/BookStore/v1/Books
+2025-04-29 11:20:49 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:50 [ERROR] API Error Response: 502 GET https://demoqa.com/BookStore/v1/Books
+2025-04-29 11:20:51 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:51 [ERROR] Failed after 3 retries
+2025-04-29 11:20:51 [ERROR] Failed to setup test user and authentication
+2025-04-29 11:20:51 [INFO ] Cleaning up test user
+2025-04-29 11:20:51 [INFO ] Setting up test user and authentication
+2025-04-29 11:20:51 [INFO ] Creating user with username: testuser_1745925648872
+2025-04-29 11:20:51 [INFO ] Successfully retrieved 8 books
+2025-04-29 11:20:51 [INFO ] Testing get book by ISBN endpoint with ISBN: 9781449325862
+2025-04-29 11:20:51 [INFO ] Getting book with ISBN: 9781449325862
+2025-04-29 11:20:51 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:51 [ERROR] API Error Response: 502 GET https://demoqa.com/BookStore/v1/Book?isbn=9781449325862
+2025-04-29 11:20:52 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:52 [ERROR] API Error Response: 502 GET https://demoqa.com/BookStore/v1/Book?isbn=9781449325862
+2025-04-29 11:20:53 [ERROR] API Error Response: 502 GET https://demoqa.com/BookStore/v1/Book?isbn=9781449325862
+2025-04-29 11:20:53 [ERROR] Failed after 3 retries
+2025-04-29 11:20:53 [INFO ] Cleaning up test user
+2025-04-29 11:20:53 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:53 [ERROR] Failed after 3 retries
+2025-04-29 11:20:53 [ERROR] Failed to setup test user and authentication
+2025-04-29 11:20:53 [INFO ] Cleaning up test user
+2025-04-29 11:21:15 [INFO ] Logger initialized
+2025-04-29 11:21:15 [INFO ] OpenAI service initialized successfully
+2025-04-29 11:21:15 [INFO ] ApiHelper initialized with base URL: https://demoqa.com
+2025-04-29 11:21:15 [INFO ] BooksEndpoint initialized
+2025-04-29 11:21:15 [INFO ] AccountEndpoint initialized
+2025-04-29 11:21:15 [INFO ] AITestResultsAnalyzer initialized
+2025-04-29 11:21:15 [INFO ] Setting up test user and authentication
+2025-04-29 11:21:15 [INFO ] Creating user with username: testuser_1745925675706
+2025-04-29 11:21:16 [INFO ] Test user created with ID: undefined
+2025-04-29 11:21:16 [INFO ] Generating token for username: testuser_1745925675706
+2025-04-29 11:21:17 [INFO ] Authentication token generated successfully
+2025-04-29 11:21:17 [INFO ] Cleaning up test user

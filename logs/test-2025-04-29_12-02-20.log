@@ -1,0 +1,16 @@
+2025-04-29 12:02:20 info: Logger initialized
+2025-04-29 12:02:20 info: Starting global setup
+2025-04-29 12:02:20 info: Setting up authentication
+2025-04-29 12:02:20 info: Authentication setup completed
+2025-04-29 12:02:20 info: Global setup completed successfully
+2025-04-29 12:02:20 info: ApiHelper initialized
+2025-04-29 12:02:20 info: AccountEndpoint initialized
+2025-04-29 12:02:20 info: BooksEndpoint initialized
+2025-04-29 12:02:20 info: Created directory: reports/allure-results
+2025-04-29 12:02:20 info: Created directory: reports/screenshots
+2025-04-29 12:02:20 info: Created directory: reports/videos
+2025-04-29 12:02:20 info: Created directory: reports/logs
+2025-04-29 12:02:20 info: Allure reporter initialized
+2025-04-29 12:02:20 info: OpenAI service initialized successfully
+2025-04-29 12:02:20 info: OpenAI service initialized successfully
+2025-04-29 12:02:20 info: AITestResultsAnalyzer initialized

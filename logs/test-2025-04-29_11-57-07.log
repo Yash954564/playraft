@@ -1,0 +1,5 @@
+2025-04-29 11:57:07 info: Logger initialized
+2025-04-29 11:57:07 info: ApiHelper initialized
+2025-04-29 11:57:07 info: AccountEndpoint initialized
+2025-04-29 11:57:07 info: Testing create user endpoint with username: testuser_1745927827175
+2025-04-29 11:57:07 info: Creating user with username: testuser_1745927827175

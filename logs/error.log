@@ -1,0 +1,109 @@
+[2025-04-29 10:30:20.513] [ERROR] Error during global setup
+{
+  "service": "playraft",
+  "error": "Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium_headless_shell-1169/chrome-linux/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+}
+[2025-04-29 10:35:07.286] [ERROR] Error during global setup
+{
+  "service": "playraft",
+  "error": "Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium_headless_shell-1169/chrome-linux/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+}
+[2025-04-29 10:38:19.353] [ERROR] Error during global setup
+{
+  "service": "playraft",
+  "error": "Error: browserType.launch: Executable doesn't exist at /home/runner/workspace/.cache/ms-playwright/chromium_headless_shell-1169/chrome-linux/headless_shell\n╔═════════════════════════════════════════════════════════════════════════╗\n║ Looks like Playwright Test or Playwright was just installed or updated. ║\n║ Please run the following command to download new browsers:              ║\n║                                                                         ║\n║     npx playwright install                                              ║\n║                                                                         ║\n║ <3 Playwright Team                                                      ║\n╚═════════════════════════════════════════════════════════════════════════╝"
+}
+2025-04-29 11:20:40 [ERROR] Failed to create user
+2025-04-29 11:20:40 [ERROR] API Error Response: 502 GET https://demoqa.com/BookStore/v1/Book?isbn=9781449325862
+2025-04-29 11:20:40 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/GenerateToken
+2025-04-29 11:20:40 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:40 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:40 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:41 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/GenerateToken
+2025-04-29 11:20:41 [ERROR] API Error Response: 502 GET https://demoqa.com/BookStore/v1/Book?isbn=9781449325862
+2025-04-29 11:20:41 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:41 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:41 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:41 [ERROR] AI analysis failed
+2025-04-29 11:20:41 [ERROR] API performance analysis failed
+2025-04-29 11:20:41 [ERROR] Failed to analyze test results with AI
+2025-04-29 11:20:42 [ERROR] AI analysis failed
+2025-04-29 11:20:42 [ERROR] Book catalog analysis failed
+2025-04-29 11:20:42 [ERROR] Failed to analyze book catalog with AI
+2025-04-29 11:20:42 [ERROR] API Error Response: 502 GET https://demoqa.com/BookStore/v1/Book?isbn=9781449325862
+2025-04-29 11:20:42 [ERROR] Failed after 3 retries
+2025-04-29 11:20:42 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:42 [ERROR] Failed after 3 retries
+2025-04-29 11:20:42 [ERROR] Failed to setup test user and authentication
+2025-04-29 11:20:42 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/GenerateToken
+2025-04-29 11:20:42 [ERROR] Failed after 3 retries
+2025-04-29 11:20:42 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:42 [ERROR] Failed after 3 retries
+2025-04-29 11:20:42 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:42 [ERROR] Failed after 3 retries
+2025-04-29 11:20:42 [ERROR] Failed to setup test user and authentication
+2025-04-29 11:20:42 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:42 [ERROR] API Error Response: 502 GET https://demoqa.com/BookStore/v1/Books
+2025-04-29 11:20:43 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:43 [ERROR] API Error Response: 502 GET https://demoqa.com/BookStore/v1/Books
+2025-04-29 11:20:43 [ERROR] AI analysis failed
+2025-04-29 11:20:43 [ERROR] API performance analysis failed
+2025-04-29 11:20:43 [ERROR] Failed to analyze test results with AI
+2025-04-29 11:20:44 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:44 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:44 [ERROR] Failed after 3 retries
+2025-04-29 11:20:44 [ERROR] Failed to setup test user and authentication
+2025-04-29 11:20:44 [ERROR] API Error Response: 502 GET https://demoqa.com/BookStore/v1/Books
+2025-04-29 11:20:44 [ERROR] Failed after 3 retries
+2025-04-29 11:20:45 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:46 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/GenerateToken
+2025-04-29 11:20:46 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:46 [ERROR] Failed after 3 retries
+2025-04-29 11:20:46 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/GenerateToken
+2025-04-29 11:20:47 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:47 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/GenerateToken
+2025-04-29 11:20:47 [ERROR] Failed after 3 retries
+2025-04-29 11:20:48 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:49 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:49 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:49 [ERROR] Failed after 3 retries
+2025-04-29 11:20:49 [ERROR] Failed to setup test user and authentication
+2025-04-29 11:20:49 [ERROR] API Error Response: 502 GET https://demoqa.com/BookStore/v1/Books
+2025-04-29 11:20:49 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:50 [ERROR] API Error Response: 502 GET https://demoqa.com/BookStore/v1/Books
+2025-04-29 11:20:51 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:51 [ERROR] Failed after 3 retries
+2025-04-29 11:20:51 [ERROR] Failed to setup test user and authentication
+2025-04-29 11:20:51 [ERROR] API Error Response: 502 GET https://demoqa.com/BookStore/v1/Book?isbn=9781449325862
+2025-04-29 11:20:51 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:52 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:52 [ERROR] API Error Response: 502 GET https://demoqa.com/BookStore/v1/Book?isbn=9781449325862
+2025-04-29 11:20:53 [ERROR] API Error Response: 502 GET https://demoqa.com/BookStore/v1/Book?isbn=9781449325862
+2025-04-29 11:20:53 [ERROR] Failed after 3 retries
+2025-04-29 11:20:53 [ERROR] API Error Response: 502 POST https://demoqa.com/Account/v1/User
+2025-04-29 11:20:53 [ERROR] Failed after 3 retries
+2025-04-29 11:20:53 [ERROR] Failed to setup test user and authentication
+2025-04-29 11:37:36 error: Failed to create user {"error":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeDefined\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mundefined\u001b[39m"}
+2025-04-29 11:37:37 error: Failed to analyze element with AI {"error":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."}
+2025-04-29 11:37:37 error: Failed to analyze element with AI {"error":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."}
+2025-04-29 11:37:38 error: Failed to analyze element with AI {"error":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."}
+2025-04-29 11:37:39 error: Failed to analyze element with AI {"error":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."}
+2025-04-29 11:37:39 error: Failed to analyze element with AI {"error":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."}
+2025-04-29 11:37:39 error: Failed to analyze element with AI {"error":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."}
+2025-04-29 11:37:40 error: Failed to analyze element with AI {"error":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."}
+2025-04-29 11:39:47 error: Failed to create user {"error":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeDefined\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mundefined\u001b[39m"}
+2025-04-29 11:39:49 error: Failed to analyze element with AI {"error":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."}
+2025-04-29 11:39:49 error: Failed to analyze element with AI {"error":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."}
+2025-04-29 11:39:49 error: Failed to analyze element with AI {"error":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."}
+2025-04-29 11:39:50 error: Failed to analyze element with AI {"error":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."}
+2025-04-29 11:39:50 error: Failed to analyze element with AI {"error":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."}
+2025-04-29 11:39:50 error: Failed to analyze element with AI {"error":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."}
+2025-04-29 11:39:52 error: Failed to analyze element with AI {"error":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."}
+2025-04-29 11:41:24 error: Failed to create user {"error":"Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeDefined\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mundefined\u001b[39m"}
+2025-04-29 11:41:25 error: Failed to analyze element with AI {"error":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."}
+2025-04-29 11:41:25 error: Failed to analyze element with AI {"error":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."}
+2025-04-29 11:41:26 error: Failed to analyze element with AI {"error":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."}
+2025-04-29 11:41:26 error: Failed to analyze element with AI {"error":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."}
+2025-04-29 11:41:26 error: Failed to analyze element with AI {"error":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."}
+2025-04-29 11:41:27 error: Failed to analyze element with AI {"error":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."}
+2025-04-29 11:41:28 error: Failed to analyze element with AI {"error":"Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors."}

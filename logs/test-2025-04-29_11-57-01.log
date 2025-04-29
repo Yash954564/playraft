@@ -1,0 +1,18 @@
+2025-04-29 11:57:01 info: Logger initialized
+2025-04-29 11:57:01 info: Starting global setup
+2025-04-29 11:57:01 info: Setting up authentication
+2025-04-29 11:57:01 info: Authentication setup completed
+2025-04-29 11:57:01 info: Global setup completed successfully
+2025-04-29 11:57:01 info: ApiHelper initialized
+2025-04-29 11:57:01 info: AccountEndpoint initialized
+2025-04-29 11:57:01 info: BooksEndpoint initialized
+2025-04-29 11:57:01 info: Logger initialized
+2025-04-29 11:57:01 info: Starting global setup
+2025-04-29 11:57:01 info: Setting up authentication
+2025-04-29 11:57:01 info: Authentication setup completed
+2025-04-29 11:57:01 info: Global setup completed successfully
+2025-04-29 11:57:02 info: ApiHelper initialized
+2025-04-29 11:57:02 info: BooksEndpoint initialized
+2025-04-29 11:57:02 info: AccountEndpoint initialized
+2025-04-29 11:57:02 info: OpenAI service initialized successfully
+2025-04-29 11:57:02 info: AITestResultsAnalyzer initialized
